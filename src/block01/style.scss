@@ -1,0 +1,33 @@
+.wp-block-pac-test-block01 {
+  font-size: 1em;
+  background: #ffff001a;
+  padding: 1em;
+  transition: all 0.3s ease-out;
+
+  &.dark-theme {
+    background: #333;
+    color: #fff;
+
+    button {
+      background: #555;
+      color: #fff;
+      border: 1px solid #777;
+    }
+
+    p {
+      color: #ddd;
+    }
+  }
+}
+
+element {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out; /* Adjust duration and easing */
+  height: auto; /* Or a specific height if needed */
+  overflow: hidden; /* Important if animating height */
+}
+
+.element.hidden {
+  opacity: 0;
+  height: 0; /* Or a specific height if needed */
+}
