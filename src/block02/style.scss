@@ -12,4 +12,20 @@
     background-color: #d5d5df;
     transition: all 0.3s ease-in;
   }
+
+  &.dark-theme {
+    background: #333;
+    color: #fff;
+
+    button {
+      background: #555;
+      color: #fff;
+      border: 1px solid #777;
+    }
+
+    p {
+      color: #ddd;
+    }
+  }
+
 }

@@ -6,7 +6,7 @@ export default function Edit({ attributes, setAttributes }) {
 
   return (
     <p {...blockProps}>
-      {__("Pac Block 02 – I'm in the editor!", "pac-blocks")}
+      {__("This is Block 02 – I'm in the editor!", "pac-blocks")}
     </p>
   );
 }
