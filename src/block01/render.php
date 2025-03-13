@@ -19,6 +19,9 @@ wp_interactivity_state(
     <?php echo wp_interactivity_data_wp_context(array('isOpen' => false)); ?>
     data-wp-watch="callbacks.logIsOpen"
     data-wp-class--dark-theme="state.isDark">
+
+    <h2>I'm block 01</h2>
+
     <button
         data-wp-on--click="actions.toggleTheme"
         data-wp-text="state.themeText"></button>
