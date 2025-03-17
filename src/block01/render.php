@@ -40,6 +40,11 @@ wp_interactivity_state(
         <?php esc_html_e('Change State', 'pac-blocks'); ?>
     </button>
 
+    <button
+        data-wp-on--click="actions.addOne">
+        Counter ++
+    </button>
+
     <p
         id="<?php echo esc_attr($unique_id); ?>"
         data-wp-bind--hidden="!context.isOpen">
@@ -51,4 +56,5 @@ wp_interactivity_state(
         data-wp-text="state.stateText">
         <- stateText
             </p>
+    <p data-wp-text="state.counter"></p>
 </div>

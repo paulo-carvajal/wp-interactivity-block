@@ -52,6 +52,7 @@ function example_allowed_block_types($allowed_block_types, $block_editor_context
         'core/paragraph',
         'pac-test/block01',
         'pac-test/block02',
+        'pac-test/block03',
     );
 
     return $allowed_block_types;

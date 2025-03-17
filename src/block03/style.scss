@@ -1,0 +1,31 @@
+.wp-block-pac-test-block02 {
+  font-size: 1em;
+
+  .custom-class {
+    padding: 2rem;
+    background-color: #dfdede;
+    transition: all 0.3s ease-out;
+  }
+
+  .other-class {
+    padding: 2rem 8rem;
+    background-color: #d5d5df;
+    transition: all 0.3s ease-in;
+  }
+
+  &.dark-theme {
+    background: #333;
+    color: #fff;
+
+    button {
+      background: #555;
+      color: #fff;
+      border: 1px solid #777;
+    }
+
+    p {
+      color: #ddd;
+    }
+  }
+
+}
